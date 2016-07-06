@@ -1,71 +1,75 @@
+<!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <!-- Android 5 chrome Color -->
-		<meta name="theme-color" content="#EE6E73"
-		<!-- favicon -->
+    <meta name="theme-color" content="#EE6E73" <!-- favicon -->
     <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
 
-		<!--Materialize css-->
-		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Materialize css-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<meta charset ="utf-8">
-		<title>Dimipedia: 회원가입</title>
+    <meta charset="utf-8">
+    <title>계정만들기 - 디미백과</title>
 
     <!--materalize javascript -->
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script type="text/javascript" src="js/materialize.min.js"></script>
-  </head>
-  <body class="card-pannel pink lighten-5">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</head>
+
+<body style="text-align:center;">
     <header>
-      <nav class="top-nav">
-        <div class="container">
-          <div class="nav-wrapper">
-            <a class="page-title">디미백과</a>
-						<ul id="nav-mobile" class="right hide-on-med-and-down">
-							<li><a class="waves-light btn" href="./loginform.html">회원가입</a></li>
-							<li><a class="waves-light btn">로그인</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a class="page-title" style="font-size:20px;" href="./mainpage.html">디미백과</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a class="waves-light btn" href="./loginform.html" style="background-color: #ffc7f6">회원가입</a></li>
+                        <li><a class="waves-light btn" style="background-color: #ffc7f6"  >로그인</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
 
 
     <div class="row">
-    <form class="col s12">
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
-          <label for="id">사용자 계정 이름</label>
-        </div>
-      </div>
+        <form class="col s6">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="password" type="password" class="validate">
+                    <label for="id">사용자 계정 이름</label>
+                </div>
+            </div>
 
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
-          <label for="password">비밀번호</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
-          <label for="password">비밀번호 확인</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
-          <label for="email">이메일 주소</label>
-        </div>
-      </div>
-      <a class="waves-effect waves-light btn-large">회원가입하기</a>
-    </form>
-  </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">비밀번호</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">비밀번호 확인</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">이메일 주소</label>
+                </div>
+            </div>
+            <br>
+            <a class="waves-effect waves-light btn-large">회원가입하기</a>
+        </form>
+    </div>
 
-  </body>
+</body>
+
 </html>
