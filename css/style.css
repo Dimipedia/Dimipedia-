@@ -1,0 +1,15 @@
+#loginForm{
+  position: absolute;
+    padding-top: 10%;
+    left: 41%;
+    text-align: center;
+    background-image: url('Images/loginBox.png');
+    width:546px;
+    height:450px;
+
+  }
+  #loigin-box{
+    border: 2px solid #ccc;
+    width: 546px;
+    height: 450px;
+  }
