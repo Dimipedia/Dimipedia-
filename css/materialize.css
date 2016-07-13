@@ -6,7 +6,7 @@
 .p-Username {
     font-size: 35px;
     color: #52B9FF;
-    
+
 }
 .p-Contents {
     font-size: 15px;
@@ -16,7 +16,7 @@
     margin:auto;
     margin-left: 20%;
     margin-right: 20%;
-    
+
     text-align: justify;
     font-size:10px;
 }
@@ -8207,5 +8207,13 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .a-Hyper {
     font-size: 15px;
     color: #52B9FF;
-    
+
+}
+
+.Signin-contents{
+  font-size: 25;!important
+  background-color: black;!important
+  margin-left: 20%;!important
+  margin-right: 20%;!important
+  text-align: center;
 }
