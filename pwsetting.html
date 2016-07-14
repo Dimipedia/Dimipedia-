@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="utf-8">
-    <title>로그인 - 디미백과</title>
+    <title>비밀번호 재설정 - 디미백과</title>
 
     <!--materalize javascript -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -48,43 +48,15 @@
 
       </div>
 
-      <div class="row">
-        <br>
+      <div class="contents-box">
+        <a class="p-Contents-Title" style="font-size:25px;">비밀번호 재설정</a><br>
+        <a class="p-Contents" style="font-size:15px;color:black;">이메일을 통해 임시 비밀번호를 받으려면 이 양식을 채우세요.</a><br><br>
+        <!-- 이메일 -->
         <div class="input-field col s12">
-          <input id="ID" type="password" class="validate">
+          <input placeholder="여기에 입력해주세요." id="ID" type="text" class="validate">
           <label for="ID">사용자 계정 이름</label>
         </div>
-
-        <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
-          <label for="password">비밀번호</label>
-        </div>
-
-
-
-        <div>
-          <!-- 로그인 유지 -->
-          <input type="checkbox" id="c1" name="cc" />
-          <label for="c1">로그인 상태를 유지하기</label>
-          <br>
-          <!-- 로그인 버튼 -->
-          <a class="waves-effect waves-light btn">로그인</a>
-          <!-- 비밀번호 찾기 -->
-          <a class="waves-effect waves-light btn" href="./pwsetting.html">비밀번호를 잊으셨나요?</a>
-        </div>
-
-
-
-
-        <!-- 계정가입 -->
-        <div>
-          <br>
-          <a>계정이 없나요? </a>
-          <a>  </a>
-          <a class="waves-effect waves-light btn" href="./signup.html">디미백과에 가입해 보세요</a>
-
-        </div>
-        </div>
+        <a class="waves-effect waves-light btn">비밀번호 재설정</a>
       </div>
 
 
