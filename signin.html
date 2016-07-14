@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="utf-8">
-    <title>계정만들기 - 디미백과</title>
+    <title>로그인 - 디미백과</title>
 
     <!--materalize javascript -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -49,30 +49,47 @@
       </div>
 
       <div class="row">
-        <!-- 가입 질문 -->
+        <br>
         <div class="input-field col s12">
-          <input placeholder="" id="question_answer" type="text" class="validate">
-          <label for="password">pretty90의 본명은?</label>
-        </div>
-        <!-- id -->
-        <div class="input-field col s12">
-          <input placeholder="" id="ID" type="text" class="validate">
+          <input id="ID" type="password" class="validate">
           <label for="ID">사용자 계정 이름</label>
         </div>
-        <!-- pw -->
-        <div class="input-field col s6">
-          <input placeholder="" id="password" type="text" class="validate">
-          <label for="비밀번호">비밀번호</label>
-        </div>
-        <div class="input-field col s6">
-          <input placeholder="" id="password_check" type="text" class="validate">
-          <label for="비밀번호 확인">비밀번호 확인</label>
-        </div>
-        <!-- Google ReCaptcha -->
 
-        <!-- 제출 버튼 -->
-        <a class="waves-effect waves-light btn-large">가입하기</a>
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">비밀번호</label>
+        </div>
+
+
+
+        <div>
+          <!-- 로그인 유지 -->
+          <input type="checkbox" id="c1" name="cc" />
+          <label for="c1">로그인 상태를 유지하기</label>
+          <br>
+          <!-- 로그인 버튼 -->
+          <a class="waves-effect waves-light btn">로그인</a>
+          <!-- 비밀번호 찾기 -->
+          <a class="waves-effect waves-light btn">비밀번호를 잊으셨나요?</a>
+        </div>
+
+
+
+
+        <!-- 계정가입 -->
+        <div>
+          <br>
+          <a>계정이 없나요? </a>
+          <a>  </a>
+          <a class="waves-effect waves-light btn" href="./signup.html">계정에 가입해 보세요</a>
+
+        </div>
+        </div>
       </div>
+
+
+
+
 
     </div>
 
